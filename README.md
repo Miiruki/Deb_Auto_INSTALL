@@ -1,6 +1,6 @@
 ---
-tags: QOS
-title : AGUILAR_Flavien_Deploiment
+tags: DPL
+title : AGUILAR_Flavien_DPL
 author : [AGUILAR Flavien]
 titlepage: true
 toc-own-page: true
