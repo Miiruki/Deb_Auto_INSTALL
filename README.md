@@ -142,4 +142,9 @@ Notre VM est maintenant installée, et nous pouvons nous en servir normalement :
 
 ![](https://i.imgur.com/jj4Oo7n.png)
 
+Nous pouvons maintenant rajouter un outil tel que memtest qui va s'installer sur le grub et qui va nous permettre de vérifier l'état de la ram dans la VM. Pour ce faire, nous allons simplement rajouter la ligne suivante dans le fichier preseed.txt : 
+
+```
+d-i pkgsel/include string openssh-server build-essential vim memtest86
+```
 </div>
